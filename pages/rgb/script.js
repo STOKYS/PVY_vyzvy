@@ -46,7 +46,7 @@ function names() {
             }
         }
     }
-    output.innerText += ` ${valueHex}`
+    output.innerHTML += ` <mark>${valueHex}</mark>`
     document.getElementById("example").style.backgroundColor = valueHex
     document.getElementById("exampleText").style.color = valueHex
 }

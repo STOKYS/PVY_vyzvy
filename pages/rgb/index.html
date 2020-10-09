@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>`</title>
+    <title>RGB</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -13,7 +13,10 @@
 
 <body>
     <header>
-
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li>RGB</li>
+        </ul>
     </header>
     <main>
         <form>
@@ -23,15 +26,16 @@
             <input type="number" value="255" id="inputG">
             <label for="inputB">B</label>
             <input type="number" value="255" id="inputB">
+            <button id="submit" type="button">Výsledek</button>
         </form>
-        <button id="submit">Výsledek</button>
         <p id="output">RGB barva hexadecimálně:</p>
         <div id="example">
             <p id="exampleText">Set Color</p>
         </div>
+        <a href="zadani-rgb.pdf" target="_blank">zadani.pdf</a>
     </main>
     <footer>
-
+        <p>David Stoček IT2</p>
     </footer>
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
