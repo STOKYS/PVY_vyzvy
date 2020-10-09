@@ -1,0 +1,13 @@
+#example{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+#exampleText{
+    color: white;
+    padding-top: 38%;
+    text-align: center;
+    filter: invert(100%);
+}
