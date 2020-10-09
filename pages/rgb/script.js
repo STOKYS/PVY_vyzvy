@@ -19,34 +19,23 @@ function names() {
             arrVal[0] = Math.floor(arr[i] / 16);
             arrVal[1] = (arr[i] % 16);
             for (j = 0; j < 2; j++) {
-                switch (arrVal[j]) {
-                    default:
-                        arrVal[j];
-                        break;
-                    case 10:
-                        arrVal[j] = "A";
-                        break;
-                    case 11:
-                        arrVal[j] = "B";
-                        break;
-                    case 12:
-                        arrVal[j] = "C";
-                        break;
-                    case 13:
-                        arrVal[j] = "D";
-                        break;
-                    case 14:
-                        arrVal[j] = "E";
-                        break;
-                    case 15:
-                        arrVal[j] = "F";
-                        break;
-                }
-                valueHex += `${arrVal[j]}`;
+                valueHex += `${letter(arrVal[j])}`;
             }
         }
     }
     output.innerHTML += ` <mark>${valueHex}</mark>`;
     document.getElementById("example").style.backgroundColor = valueHex;
     document.getElementById("exampleText").style.color = valueHex;
+}
+
+function letter(type) {
+    let other = type
+    return {
+        10: 'A',
+        11: 'B',
+        12: 'C',
+        13: 'D',
+        14: 'E',
+        15: 'F'
+      }[type] || [other]
 }
