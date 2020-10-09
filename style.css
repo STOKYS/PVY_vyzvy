@@ -1,0 +1,48 @@
+* {
+    color: rgb(230, 230, 230)
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+header{
+    background-color: rgb(20, 20, 20);
+    height: 50px;
+    width: 100%;
+    top: 0;
+}
+
+header > ul {
+    padding-top: 12px;
+}
+
+main {
+    background-color: black;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(20, 20, 20);
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+}
+
+input {
+    background-color: #0075b9;
+    border-color: #2c2c2c;
+}
+
+button {
+    background-color: #0075b9;
+    border-color: #2c2c2c;
+}
+
+mark{
+    background-color: #2c2c2c;
+    border-radius: 5px;
+}
