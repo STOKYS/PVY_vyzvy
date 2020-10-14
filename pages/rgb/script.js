@@ -37,5 +37,5 @@ function letter(type) {
         13: 'D',
         14: 'E',
         15: 'F'
-      }[type] || [other]
+    } [type] || [other]
 }
